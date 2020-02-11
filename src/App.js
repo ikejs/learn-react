@@ -1,15 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-function Heading(props) {
-  return (
-    <header className="App-header">
-      <h1>{props.title}</h1>
-      <h2>{props.subtitle}</h2>
-    </header>
-  )
-}
+import Heading from './Heading'
 
 function App() {
   return (
