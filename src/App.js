@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 import './Heading.css'
 import Heading from './Heading'
+import Content from './Content'
 
 function App() {
   return (
     <div className="App">
       <Heading />
+      <Content />
     </div>
   );
 }
