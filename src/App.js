@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
-import './Heading.css'
-import './Content.css'
 import Heading from './Heading'
 import Content from './Content'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+
 
 function App() {
   return (
-    <div className="App">
-      <Heading />
-      <Content />
-    </div>
+    <Router>
+      <div className="App">
+        <Heading />
+        <Content />
+      </div>
+    </Router>
   );
 }
 
